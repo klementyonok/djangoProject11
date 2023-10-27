@@ -3,7 +3,9 @@ from django.core.management.base import BaseCommand, CommandError
 from tenant.models import Client
 from django.utils.text import capfirst
 from django.core import exceptions
-#dfdf
+
+
+# dfdf
 
 class Command(BaseCommand):
     help = 'Create a client'
